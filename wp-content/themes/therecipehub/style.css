@@ -1,11 +1,83 @@
-/*
-Theme Name: The Recipe Hub
-Theme URI: http://example.com
+/* 
+Theme Name: Fictional University
 Author: Sebastian
-Author URI: http://example.com
-Description: A custom theme our recipe website
 Version: 1.0
-License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: therecipehub
 */
+
+/*------------------FARVER------------------------*/
+
+:root {
+  --mainBrown: #A98467;
+  --sandFarve: #F0EAD2;
+
+  --greenButtonColor: #ADC178;
+  
+  --mainTextColor: #000000;
+  --secondaryTextColor: #585858;
+
+
+  --titleSize: 48px;
+  --titleSizeH2: 32px;
+  --paragraphSize: 16px;
+
+  
+}
+
+/*------------------FARVER------------------------*/
+
+/*------------------VARIABLES------------------------*/
+
+
+
+/*------------------VARIABLES------------------------*/
+
+*{
+    margin: 0;
+}
+
+header {
+  background-color: #222;
+  padding: 15px 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* User icon on the right */
+.nav-user {
+  position: absolute;
+  right: 30px;
+}
+
+.nav-user a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.nav-user a:hover {
+  color: #00bcd4;
+}
