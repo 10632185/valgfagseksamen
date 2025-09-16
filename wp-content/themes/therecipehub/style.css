@@ -4,32 +4,39 @@ Author: Sebastian
 Version: 1.0
 */
 
-/*------------------FARVER------------------------*/
+/*------------------VARIABLES------------------------*/
 
 :root {
+
+/*------------------COLORS------------------------*/
   --mainBrown: #A98467;
   --sandFarve: #F0EAD2;
 
   --greenButtonColor: #ADC178;
   
+  /*------------------TEXT SIZES------------------------*/
   --mainTextColor: #000000;
   --secondaryTextColor: #585858;
 
 
-  --titleSize: 48px;
-  --titleSizeH2: 32px;
-  --paragraphSize: 16px;
+  --titleSize: 3rem;
+  --titleSizeH2: 2rem;
+  --paragraphSize: 1rem;
+
+  /* Spacers*/
+  --mobileSmallSpacer: 1.25rem;
+  --mobileSmallSpacer: 0.9375rem;
+  --mobileLargeSpacer: 1.875rem;
+
+  --desktopSmallSpacer: 1.25rem;
+  --desktopSMSpacer: 2.25rem;
+  --desktopMediumSpacer: 4.375rem;
+  --dekstopLargeSpacer: 6.25rem;
 
   
 }
 
-/*------------------FARVER------------------------*/
-
-/*------------------VARIABLES------------------------*/
-
-
-
-/*------------------VARIABLES------------------------*/
+/*------------------''''''''------------------------*/
 
 *{
     margin: 0;
@@ -37,7 +44,7 @@ Version: 1.0
 
 header {
   background-color: #222;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
 }
 
 .navbar {
@@ -58,7 +65,7 @@ header {
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: var(--paragraphSize);
   transition: color 0.3s;
 }
 
@@ -66,7 +73,7 @@ header {
   color: #00bcd4;
 }
 
-/* User icon on the right */
+/* User icon */
 .nav-user {
   position: absolute;
   right: 30px;
@@ -74,7 +81,7 @@ header {
 
 .nav-user a {
   color: white;
-  font-size: 20px;
+  font-size: var(--paragraphSize);
   transition: color 0.3s;
 }
 
