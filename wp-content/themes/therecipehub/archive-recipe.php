@@ -14,44 +14,68 @@ get_header();
     </div>
   </section>
 
-  <section class="recipeCategory">
-    <div class="heading-row">
-        <h2>Everyday Favorites</h2>
-        <a href="/guest-meals" class="taglink">View more..</a>
-    </div>
-    <div class="gallery">
-      <img src="/wp-content/uploads/2025/09/easy_halloumi_wrap.jpg" alt="Burrito Wrap" />
-      <img src="/wp-content/uploads/2025/09/golden_coconut_curry.jpg" alt="Cocunut Curry" />
-      <img src="/wp-content/uploads/2025/09/roast_chicken_for_one.jpg" alt="Roast Chicken" />
-    </div>
-  </section>
+<?php
+$recipe_types = get_terms([
+  'taxonomy' => 'recipe_type',
+  'hide_empty' => true,
+]);
+
+if (!empty($recipe_types) ) :
+  foreach ( $recipe_types as $type ) :
+?>
 
   <section class="recipeCategory">
     <div class="heading-row">
-        <h2>Guest Meals & Celebrations</h2>
-        <a href="/guest-meals" class="taglink">View more..</a>
+      <h2><?php echo ($type->name); ?></h2>
+      <a href="<?php echo (get_term_link($type)); ?>" class="taglink">View more..</a>
+      <!-- Jeg blev træt af at skrive hele url stringen ud hele tiden, og spurgte så en chatrobot om der var en lettere mulighed. Den forklarede mig så "get_term_link", som selv går ind og fanger url'en, sluggen osv. Dette er en meget hurtigere måde at gøre det på, samt mere sikkert da hvis man opdatere sin slug ikke skal ind og opdatere i koden, og derfor kan brugeren heller ikke f'e det op :-)
+      Yderligere har vi også kigget her for hjælp til netop dette https://developer.wordpress.org/reference/functions/get_term_link/ - så vi bedre kunne forstå hvordan den fanger vores taxonomi osv.
+      -->
     </div>
+
     <div class="gallery">
-      <img src="/wp-content/uploads/2025/09/paneer_and_potato_curry.jpg" alt="Potato curry" />
-      <img src="/wp-content/uploads/2025/09/tray-baked_eggs.jpg" alt="Tray Baked eggs" />
-      <img src="/wp-content/uploads/2025/09/spaghetti_with_kale_.jpg" alt="Green pasta" />
+      <?php
+      $recipes_query = new WP_Query([
+        'post_type' => 'recipe',
+        'posts_per_page' => 3,
+        'tax_query' => [[
+          'taxonomy' => 'recipe_type',
+          'field' => 'slug',
+          'terms' => $type->slug,
+        ]],
+      ]);
+
+      if ($recipes_query->have_posts() ) :
+        while ( $recipes_query->have_posts() ) : $recipes_query->the_post();
+          if ( has_post_thumbnail() ) :
+      ?>
+        <div class="recipeIndividualItem">
+            <a href="<?php the_permalink(); ?>">
+                <?php the_post_thumbnail('medium', ['alt' => get_the_title()]); ?><!-- Vi tilføjer alt teksten til at værende billedets titel, da det typisk har noget med billedet at gøre og er en ret godt quick fix (håber det virker) -->
+            </a>
+            <p class="recipeIndividualTitle">
+                <?php echo get_the_title(); ?>
+            </p>
+        </div>
+
+            
+      <?php
+          endif;
+        endwhile;
+        wp_reset_postdata();
+      else :
+        echo '<p>No recipes found in this category.</p>';
+      endif;
+      ?>
     </div>
   </section>
 
-  <section class="recipeCategory">
-    <div class="heading-row">
-        <h2>World Cuisine</h2>
-        <a href="/guest-meals" class="taglink">View more..</a>
-    </div>
-    <div class="gallery">
-      <img src="/wp-content/uploads/2025/09/sichuan_haggis_and.jpg" alt="Sichuan" />
-      <img src="/wp-content/uploads/2025/09/student_food.jpg" alt="Cheap student food" />
-      <img src="/wp-content/uploads/2025/09/honey_broccoli_noodles.jpg" alt="Pasta with garnish" />
-    </div>
-  </section>
+<?php
+  endforeach;
+endif;
+?>
 
 </main>
-
 
 <?php
 get_footer()

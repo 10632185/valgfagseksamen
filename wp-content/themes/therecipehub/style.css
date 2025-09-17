@@ -91,6 +91,10 @@ header {
   color: var(--sandFarve);
 }
 
+.activeClass {
+    color: var(--sandFarve);
+}
+
 /*------------------FOOTER------------------------*/
 .footer {
   display: flex;
@@ -128,6 +132,109 @@ header {
 .footer-column p {
   font-size: 0.85rem;
   margin-top: 0.7rem;
+}
+
+/*------------------FRONT PAGE------------------------*/
+
+/* INTRO */
+
+.herovideo{
+    width: 100%;
+    
+}
+
+.hero-video {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.intro {
+  text-align: center;
+padding-inline: var(--desktopMediumSpacer);
+padding-block: var(--desktopMediumSpacer);
+}
+.intro h1 {
+  font-size: var(--titleSize);
+  margin-bottom: var(--desktopSMSpacer);
+}
+.intro p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: var(--paragraphSize);
+}
+ 
+/* FOOD SECTION */
+.food-section {
+  display: flex;
+  justify-content: center;
+  gap: var(--desktopSmallSpacer);
+  padding: var(--desktopSMSpacer) var(--desktopSmallSpacer);
+  background: #f5f2e7;
+  border-radius: 8px;
+}
+ 
+.food-card {
+  background: none;
+  padding: var(--desktopSMSpacer);
+  text-align: center;
+  flex: 1;
+  max-width: 250px;
+}
+ 
+.food-card img {
+  width: 100%;
+  height: 9.3rem;      
+  object-fit: cover;    
+  border-radius: 6px;
+}
+ 
+.food-card h4 {
+  margin-top: 10px;
+  font-size: var(--paragraphSize);
+}
+ 
+.food-card p {
+  font-size: var(--paragraphSize);
+  color: #666;
+}
+ 
+ 
+/* CHEF SECTION */
+.chef-section {
+  display: flex;
+  flex-direction: column;
+  gap:var(--desktopSmallSpacer);
+  padding-inline: var(--dekstopLargeSpacer) ;
+  padding-block: var(--desktopSMSpacer);
+}
+ 
+.chef-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+ 
+.chef-card.reverse {
+  flex-direction: row-reverse;
+}
+ 
+.chef-card img {
+  width: 80%;        
+  height: 15rem;     
+  object-fit: cover;
+  border-radius: 8px;
+}
+ 
+ 
+.chef-text {
+  width: 60%;
+}
+ 
+.chef-text p {
+  margin-bottom: 1rem;
+  font-size: var(--paragraphSize);
+  line-height: 1.5;
 }
 
 /*------------------RECIPES------------------------*/
@@ -211,4 +318,16 @@ header {
 
 .gallery img:hover {
   transform: scale(1.03);
+}
+
+.recipeIndividualItem {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipeIndividualTitle {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
 }

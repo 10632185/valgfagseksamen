@@ -21,3 +21,13 @@ function register_recipe_post_type() {
   ]);
 }
 add_action('init', 'register_recipe_post_type');
+
+function register_recipe_taxonomy() {
+  register_taxonomy('recipe_type', 'recipe', [
+    'label' => 'Recipe Type',
+    'hierarchical' => true, 
+    'show_in_rest' => true,
+    'rewrite' => ['slug' => 'recipe-type'],
+  ]);
+}
+add_action('init', 'register_recipe_taxonomy');
