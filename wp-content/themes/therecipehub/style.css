@@ -1,5 +1,5 @@
 /* 
-Theme Name: Fictional University
+Theme Name: The Recipe Hub
 Author: Sebastian
 Version: 1.0
 */
@@ -36,16 +36,18 @@ Version: 1.0
   
 }
 
-/*------------------''''''''------------------------*/
+/*------------------OVERALL STYLING------------------------*/
 
 *{
     margin: 0;
 }
 
 header {
-  background-color: #222;
+  background-color: var(--mainBrown);
   padding: 1rem 2rem;
 }
+
+/*------------------NAVIGATION------------------------*/
 
 .navbar {
   display: flex;
@@ -70,7 +72,7 @@ header {
 }
 
 .nav-links a:hover {
-  color: #00bcd4;
+  color: var(--sandFarve);
 }
 
 /* User icon */
@@ -86,5 +88,44 @@ header {
 }
 
 .nav-user a:hover {
-  color: #00bcd4;
+  color: var(--sandFarve);
+}
+
+/*------------------FOOTER------------------------*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: var(--mainBrown);
+  color: #eee;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+.footer-column {
+  min-width: 180px;
+}
+.footer-column h4 {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+.footer-column ul {
+  list-style: none;
+}
+.footer-column li {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover{
+    color: var(--sandFarve);
+}
+
+.footer-column p {
+  font-size: 0.85rem;
+  margin-top: 0.7rem;
 }
