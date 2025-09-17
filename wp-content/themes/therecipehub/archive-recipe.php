@@ -29,7 +29,7 @@ if (!empty($recipe_types) ) :
       <h2><?php echo ($type->name); ?></h2>
       <a href="<?php echo (get_term_link($type)); ?>" class="taglink">View more..</a>
       <!-- Jeg blev træt af at skrive hele url stringen ud hele tiden, og spurgte så en chatrobot om der var en lettere mulighed. Den forklarede mig så "get_term_link", som selv går ind og fanger url'en, sluggen osv. Dette er en meget hurtigere måde at gøre det på, samt mere sikkert da hvis man opdatere sin slug ikke skal ind og opdatere i koden, og derfor kan brugeren heller ikke f'e det op :-)
-      Yderligere har vi også kigget her for hjælp til netop dette https://developer.wordpress.org/reference/functions/get_term_link/ - så vi bedre kunne forstå hvordan den fanger vores taxonomi osv.
+      Yderligere har vi også kigget her for hjælp til netop dette https://developer.wordpress.org/reference/functions/get_term_link/ - så vi bedre kunne forstå hvordan den fanger vores taxonomi, som man så evt. kan bruge til at se alle af en bestemt type.
       -->
     </div>
 

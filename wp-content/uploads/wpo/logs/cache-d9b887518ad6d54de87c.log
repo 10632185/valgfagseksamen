@@ -49,3 +49,33 @@
 [2025-09-17 12:30:32 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
 [2025-09-17 12:30:32 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/paneer-and-potato/ has been purged, triggered by action: save_post 
 [2025-09-17 12:30:32 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Paneer and Potato" has been purged, triggered by action: save_post 
+[2025-09-17 12:52:19 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/student-food/ has been purged, triggered by action: save_post 
+[2025-09-17 12:52:19 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Student Food" has been purged, triggered by action: save_post 
+[2025-09-17 12:52:19 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-17 12:52:19 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/student-food/ has been purged, triggered by action: save_post 
+[2025-09-17 12:52:19 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Student Food" has been purged, triggered by action: save_post 
+[2025-09-17 12:53:25 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/sichuan-haggis/ has been purged, triggered by action: save_post 
+[2025-09-17 12:53:25 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Sichuan Haggis" has been purged, triggered by action: save_post 
+[2025-09-17 12:53:25 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-17 12:53:25 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/sichuan-haggis/ has been purged, triggered by action: save_post 
+[2025-09-17 12:53:25 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Sichuan Haggis" has been purged, triggered by action: save_post 
+[2025-09-17 12:54:38 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/fondant-potatoes/ has been purged, triggered by action: save_post 
+[2025-09-17 12:54:38 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Fondant Potatoes" has been purged, triggered by action: save_post 
+[2025-09-17 12:54:38 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-17 12:54:38 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/fondant-potatoes/ has been purged, triggered by action: save_post 
+[2025-09-17 12:54:38 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Fondant Potatoes" has been purged, triggered by action: save_post 
+[2025-09-17 12:54:47 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/fondant-potatoes/ has been purged, triggered by action: save_post 
+[2025-09-17 12:54:47 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Fondant Potatoes" has been purged, triggered by action: save_post 
+[2025-09-17 12:54:47 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-17 12:54:47 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/fondant-potatoes/ has been purged, triggered by action: save_post 
+[2025-09-17 12:54:47 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Fondant Potatoes" has been purged, triggered by action: save_post 
+[2025-09-17 12:56:01 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/miso-and-beer-marinated/ has been purged, triggered by action: save_post 
+[2025-09-17 12:56:01 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Miso and Beer Marinated" has been purged, triggered by action: save_post 
+[2025-09-17 12:56:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-17 12:56:01 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/miso-and-beer-marinated/ has been purged, triggered by action: save_post 
+[2025-09-17 12:56:01 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Miso and Beer Marinated" has been purged, triggered by action: save_post 
+[2025-09-17 12:56:41 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/slow-cooked-pulled-pork/ has been purged, triggered by action: save_post 
+[2025-09-17 12:56:41 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Slow Cooked Pulled Pork" has been purged, triggered by action: save_post 
+[2025-09-17 12:56:41 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-17 12:56:41 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/slow-cooked-pulled-pork/ has been purged, triggered by action: save_post 
+[2025-09-17 12:56:41 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Slow Cooked Pulled Pork" has been purged, triggered by action: save_post 
