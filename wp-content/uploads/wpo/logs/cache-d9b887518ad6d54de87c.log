@@ -1,0 +1,19 @@
+[2025-09-17 10:09:43 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/ has been purged, triggered by action: save_post 
+[2025-09-17 10:09:43 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/sommer2025/ associated with post_type: page and Title: "Recipes" has been purged, triggered by action: save_post 
+[2025-09-17 10:20:38 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/ has been purged, triggered by action: save_post 
+[2025-09-17 10:20:38 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/sommer2025/ associated with post_type: page and Title: "Recipes" has been purged, triggered by action: save_post 
+[2025-09-17 10:28:40 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/ has been purged, triggered by action: wp_trash_post 
+[2025-09-17 10:28:47 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/recipes/ has been purged, triggered by action: save_post 
+[2025-09-17 10:28:47 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Recipes" has been purged, triggered by action: save_post 
+[2025-09-17 10:28:57 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/recipes/ has been purged, triggered by action: wp_trash_post 
+[2025-09-17 10:36:59 : INFO] - Cache for URL: http://valgfags-eksamen.local/sample-page/ has been purged, triggered by action: wp_trash_post 
+[2025-09-17 10:49:40 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/food-name-1/ has been purged, triggered by action: save_post 
+[2025-09-17 10:49:40 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Food name 1" has been purged, triggered by action: save_post 
+[2025-09-17 10:49:45 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/food-name-1/ has been purged, triggered by action: save_post 
+[2025-09-17 10:49:45 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Food name 1" has been purged, triggered by action: save_post 
+[2025-09-17 10:50:38 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/food-test-2/ has been purged, triggered by action: save_post 
+[2025-09-17 10:50:38 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Food test 2" has been purged, triggered by action: save_post 
+[2025-09-17 10:50:46 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/food-test-2/ has been purged, triggered by action: save_post 
+[2025-09-17 10:50:46 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Food name 2" has been purged, triggered by action: save_post 
+[2025-09-17 10:50:59 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/food-name-3/ has been purged, triggered by action: save_post 
+[2025-09-17 10:50:59 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Food name 3" has been purged, triggered by action: save_post 

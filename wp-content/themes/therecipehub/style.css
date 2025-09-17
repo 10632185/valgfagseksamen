@@ -129,3 +129,86 @@ header {
   font-size: 0.85rem;
   margin-top: 0.7rem;
 }
+
+/*------------------RECIPES------------------------*/
+
+.recipe-guide {
+  background-color: #fff8f0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-image {
+  width: 100%;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  max-height: 50vh;
+  object-fit: cover;
+}
+
+.recipeBodytext h1 {
+  font-size: 2rem;
+  color: var(--mainTextColor);
+  margin-bottom: 1rem;
+}
+
+.recipeBodytext p {
+  font-size: 1rem;
+  color: var(--secondaryTextColor);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.heading-row a {
+    text-decoration: none;
+    color: grey;
+}
+
+.recipeCategory {
+  margin-bottom: 3rem;
+}
+
+.recipeCategory h2 {
+  font-size: 1.8rem;
+  color: var(--mainTextColor);
+  margin-bottom: 0.5rem;
+}
+
+.recipeCategory .viewmore {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}

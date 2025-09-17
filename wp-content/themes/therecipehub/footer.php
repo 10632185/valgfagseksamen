@@ -25,3 +25,6 @@
       <p>ALL RIGHTS RESERVED ©</p>
     </div>
   </footer>
+
+</body>
+</html>
