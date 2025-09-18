@@ -23,7 +23,7 @@ Version: 1.0
   --titleSizeH2: 2rem;
   --paragraphSize: 1rem;
 
-  /* Spacers*/
+  /*Spacers*/
   --mobileSmallSpacer: 1.25rem;
   --mobileSmallSpacer: 0.9375rem;
   --mobileLargeSpacer: 1.875rem;
@@ -47,7 +47,7 @@ header {
   padding: 1rem 2rem;
 }
 
-/*------------------NAVIGATION------------------------*/
+/*-------------------NAVIGATION------------------------*/
 
 .navbar {
   display: flex;
@@ -75,7 +75,6 @@ header {
   color: var(--sandFarve);
 }
 
-/* User icon */
 .nav-user {
   position: absolute;
   right: 30px;
@@ -137,10 +136,8 @@ header {
 /*------------------FRONT PAGE------------------------*/
 
 /* INTRO */
-
 .herovideo{
     width: 100%;
-    
 }
 
 .hero-video {
@@ -164,7 +161,7 @@ padding-block: var(--desktopMediumSpacer);
   font-size: var(--paragraphSize);
 }
  
-/* FOOD SECTION */
+/* --------------------FOOD SECTION-----------------------*/
 .food-section-wrapper {
   text-align: center; 
   margin-inline: var(--dekstopLargeSpacer);
@@ -214,7 +211,7 @@ padding-block: var(--desktopMediumSpacer);
 
  
  
-/* CHEF SECTION */
+/* ------------------CHEF SECTION------------------*/
 .chef-section {
   display: flex;
   flex-direction: column;
@@ -251,7 +248,7 @@ padding-block: var(--desktopMediumSpacer);
   line-height: 1.5;
 }
 
-/*------------------RECIPES------------------------*/
+/*------------------------RECIPES------------------------*/
 
 .recipe-guide {
   background-color: #fff8f0;
@@ -326,8 +323,6 @@ padding-block: var(--desktopMediumSpacer);
   justify-self: start;
 }
 
-
-
 .gallery {
   display: grid;
   grid-auto-flow: column; 
@@ -347,7 +342,6 @@ padding-block: var(--desktopMediumSpacer);
   background: #ccc;   
   border-radius: 4px;
 }
-
 
 
 .food-card img, .gallery img {
@@ -470,7 +464,7 @@ padding-block: var(--desktopMediumSpacer);
 }
 
 
-/* WEEKLY CHEFS */
+/* -------------------WEEKLY CHEFS------------------- */
 .intro-weekly-chefs {
   text-align: center;
   max-width: 800px;
