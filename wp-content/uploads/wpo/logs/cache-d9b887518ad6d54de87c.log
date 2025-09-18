@@ -109,3 +109,84 @@
 [2025-09-18 09:18:21 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
 [2025-09-18 09:18:21 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/miso-and-beer-marinated/ has been purged, triggered by action: save_post 
 [2025-09-18 09:18:21 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Miso and Beer Marinated" has been purged, triggered by action: save_post 
+[2025-09-18 10:17:54 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: save_post 
+[2025-09-18 10:17:54 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Croissant placeholder" has been purged, triggered by action: save_post 
+[2025-09-18 10:17:54 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:17:54 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: save_post 
+[2025-09-18 10:17:54 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Croissant placeholder" has been purged, triggered by action: save_post 
+[2025-09-18 10:18:16 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: wp_trash_post 
+[2025-09-18 10:18:16 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:18:30 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: save_post 
+[2025-09-18 10:18:30 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Croissant placeholder" has been purged, triggered by action: save_post 
+[2025-09-18 10:18:30 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:18:30 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: save_post 
+[2025-09-18 10:18:30 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Croissant placeholder" has been purged, triggered by action: save_post 
+[2025-09-18 10:18:42 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: save_post 
+[2025-09-18 10:18:42 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Placeholder" has been purged, triggered by action: save_post 
+[2025-09-18 10:18:42 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:18:42 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/croissant-placeholder/ has been purged, triggered by action: save_post 
+[2025-09-18 10:18:42 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Placeholder" has been purged, triggered by action: save_post 
+[2025-09-18 10:19:43 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/placeholder-2/ has been purged, triggered by action: save_post 
+[2025-09-18 10:19:43 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Placeholder 2" has been purged, triggered by action: save_post 
+[2025-09-18 10:19:43 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:19:43 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/placeholder-2/ has been purged, triggered by action: save_post 
+[2025-09-18 10:19:43 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Placeholder 2" has been purged, triggered by action: save_post 
+[2025-09-18 10:33:44 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/burrito/ has been purged, triggered by action: save_post 
+[2025-09-18 10:33:44 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Burrito" has been purged, triggered by action: save_post 
+[2025-09-18 10:33:44 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:33:44 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/burrito/ has been purged, triggered by action: save_post 
+[2025-09-18 10:33:44 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Burrito" has been purged, triggered by action: save_post 
+[2025-09-18 10:35:06 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/burrito/ has been purged, triggered by action: save_post 
+[2025-09-18 10:35:06 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Burrito" has been purged, triggered by action: save_post 
+[2025-09-18 10:35:06 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:35:06 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/burrito/ has been purged, triggered by action: save_post 
+[2025-09-18 10:35:06 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Burrito" has been purged, triggered by action: save_post 
+[2025-09-18 10:35:22 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/burrito/ has been purged, triggered by action: save_post 
+[2025-09-18 10:35:22 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Burrito" has been purged, triggered by action: save_post 
+[2025-09-18 10:35:22 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:35:22 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/burrito/ has been purged, triggered by action: save_post 
+[2025-09-18 10:35:22 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Burrito" has been purged, triggered by action: save_post 
+[2025-09-18 10:37:00 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/currysoup/ has been purged, triggered by action: save_post 
+[2025-09-18 10:37:00 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Curry Soup" has been purged, triggered by action: save_post 
+[2025-09-18 10:37:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:37:01 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/currysoup/ has been purged, triggered by action: save_post 
+[2025-09-18 10:37:01 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Curry Soup" has been purged, triggered by action: save_post 
+[2025-09-18 10:38:50 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/chickenandpotatoes/ has been purged, triggered by action: save_post 
+[2025-09-18 10:38:50 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Chicken and Potatoes" has been purged, triggered by action: save_post 
+[2025-09-18 10:38:50 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:38:50 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/chickenandpotatoes/ has been purged, triggered by action: save_post 
+[2025-09-18 10:38:50 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Chicken and Potatoes" has been purged, triggered by action: save_post 
+[2025-09-18 10:40:12 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/paneer-and-potato/ has been purged, triggered by action: save_post 
+[2025-09-18 10:40:12 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Paneer and Potato" has been purged, triggered by action: save_post 
+[2025-09-18 10:40:12 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:40:12 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/paneer-and-potato/ has been purged, triggered by action: save_post 
+[2025-09-18 10:40:12 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Paneer and Potato" has been purged, triggered by action: save_post 
+[2025-09-18 10:43:55 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/student-food/ has been purged, triggered by action: save_post 
+[2025-09-18 10:43:55 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Student Food" has been purged, triggered by action: save_post 
+[2025-09-18 10:43:55 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:43:55 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/student-food/ has been purged, triggered by action: save_post 
+[2025-09-18 10:43:55 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Student Food" has been purged, triggered by action: save_post 
+[2025-09-18 10:45:20 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/sichuan-haggis/ has been purged, triggered by action: save_post 
+[2025-09-18 10:45:20 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Sichuan Haggis" has been purged, triggered by action: save_post 
+[2025-09-18 10:45:20 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:45:20 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/sichuan-haggis/ has been purged, triggered by action: save_post 
+[2025-09-18 10:45:20 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Sichuan Haggis" has been purged, triggered by action: save_post 
+[2025-09-18 10:46:23 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/fondant-potatoes/ has been purged, triggered by action: save_post 
+[2025-09-18 10:46:23 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Fondant Potatoes" has been purged, triggered by action: save_post 
+[2025-09-18 10:46:23 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 10:46:23 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/fondant-potatoes/ has been purged, triggered by action: save_post 
+[2025-09-18 10:46:23 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Fondant Potatoes" has been purged, triggered by action: save_post 
+[2025-09-18 11:09:01 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/miso-and-beer-marinated/ has been purged, triggered by action: save_post 
+[2025-09-18 11:09:01 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Miso and Beer Marinated" has been purged, triggered by action: save_post 
+[2025-09-18 11:09:01 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-09-18 11:09:01 : INFO] - Cache for URL: http://valgfags-eksamen.local/recipes/miso-and-beer-marinated/ has been purged, triggered by action: save_post 
+[2025-09-18 11:09:01 : INFO] - Cache for archive page associated with post_type: recipe and Title: "Miso and Beer Marinated" has been purged, triggered by action: save_post 
+[2025-09-18 11:54:55 : INFO] - Cache for URL: http://valgfags-eksamen.local/weekly_chef/poppy-otoole/ has been purged, triggered by action: save_post 
+[2025-09-18 11:55:27 : INFO] - Cache for URL: http://valgfags-eksamen.local/chef_profile/dr-rupy-aujla/ has been purged, triggered by action: save_post 
+[2025-09-18 12:02:46 : INFO] - Cache for URL: http://valgfags-eksamen.local/chef_profile/dr-rupy-aujla/ has been purged, triggered by action: save_post 
+[2025-09-18 12:03:21 : INFO] - Cache for URL: http://valgfags-eksamen.local/weekly_chef/masterchefs/ has been purged, triggered by action: save_post 
+[2025-09-18 12:03:38 : INFO] - Cache for URL: http://valgfags-eksamen.local/weekly_chef/masterchefs/ has been purged, triggered by action: wp_trash_post 
+[2025-09-18 12:25:50 : INFO] - Cache for URL: http://valgfags-eksamen.local/chef-profile/rachel-ama/ has been purged, triggered by action: save_post 
+[2025-09-18 12:26:12 : INFO] - Cache for URL: http://valgfags-eksamen.local/chef-profile/andi-oliver/ has been purged, triggered by action: save_post 
+[2025-09-18 12:26:53 : INFO] - Cache for URL: http://valgfags-eksamen.local/chef-profile/sebza/ has been purged, triggered by action: save_post 
+[2025-09-18 12:27:13 : INFO] - Cache for URL: http://valgfags-eksamen.local/chef-profile/sebza/ has been purged, triggered by action: wp_trash_post 

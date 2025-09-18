@@ -31,3 +31,44 @@ function register_recipe_taxonomy() {
   ]);
 }
 add_action('init', 'register_recipe_taxonomy');
+
+// ----------------------------------------------
+// TEST FOR WEEKLY CHEFS
+
+function register_custom_chef_post_types() {
+  // Weekly Chef
+  register_post_type('weekly_chef', [
+    'labels' => [
+      'name' => 'Weekly Chefs',
+      'singular_name' => 'Weekly Chef',
+      'add_new_item' => 'Add New Weekly Chef',
+      'edit_item' => 'Edit Weekly Chef',
+      'all_items' => 'All Weekly Chefs',
+    ],
+    'public' => true,
+    'has_archive' => true,
+    'rewrite' => ['slug' => 'weekly-chef'],
+    'supports' => ['title', 'editor', 'thumbnail', 'custom-fields'],
+    'show_in_rest' => true,
+    'menu_icon' => 'dashicons-star-filled',
+  ]);
+
+  // Chef Profile
+  register_post_type('chef_profile', [
+    'labels' => [
+      'name' => 'Chef Profiles',
+      'singular_name' => 'Chef Profile',
+      'add_new_item' => 'Add New Chef Profile',
+      'edit_item' => 'Edit Chef Profile',
+      'all_items' => 'All Chef Profiles',
+    ],
+    'public' => true,
+    'has_archive' => false,
+    'rewrite' => ['slug' => 'chef-profile'],
+    'supports' => ['title', 'editor', 'thumbnail', 'custom-fields'],
+    'show_in_rest' => true,
+    'menu_icon' => 'dashicons-groups',
+  ]);
+}
+add_action('init', 'register_custom_chef_post_types');
+

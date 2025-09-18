@@ -37,7 +37,9 @@ if (!empty($recipe_types) ) :
       <?php
       $recipes_query = new WP_Query([
         'post_type' => 'recipe',
-        'posts_per_page' => 3,
+        'posts_per_page' => 7,
+        'orderby' => 'date',
+        'order' => 'ASC',
         'tax_query' => [[
           'taxonomy' => 'recipe_type',
           'field' => 'slug',

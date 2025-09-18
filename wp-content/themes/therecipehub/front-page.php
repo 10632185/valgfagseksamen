@@ -33,23 +33,63 @@ get_header();
   </section>
  
   <!-- FOOD CARDS -->
-  <section class="food-section">
-    <div class="food-card">
-      <img src=https://thispersondoesnotexist.com/ alt="Food 1">
-      <h4>Food name - 20min</h4>
-      <p>A lovely dish that has a bomb full of flavours</p>
+<?php
+// Get the first recipe type
+$types = get_terms('recipe_type', ['hide_empty' => true, 'number' => 1]);
+if ($types) :
+    $type = $types[0];
+?>
+
+<section class="food-section-wrapper">
+    <div class="food-section-h2-frontpage">
+        <h2><?php echo $type->name; ?></h2>
     </div>
-    <div class="food-card">
-      <img src=https://thispersondoesnotexist.com/ alt="Food 2">
-      <h4>Food name - 20min</h4>
-      <p>A lovely dish that has a bomb full of flavours</p>
-    </div>
-    <div class="food-card">
-      <img src=https://thispersondoesnotexist.com/ alt="Food 3">
-      <h4>Food name - 20min</h4>
-      <p>A lovely dish that has a bomb full of flavours</p>
-    </div>
-  </section>
+
+    <div class="food-section"> <!-- container for the cards -->
+        <?php
+        // Get 3 recipes for this type
+        $recipes = new WP_Query([
+            'post_type' => 'recipe',
+            'posts_per_page' => 3,
+            'orderby' => 'date',
+            'order' => 'ASC',
+            'tax_query' => [[
+                'taxonomy' => 'recipe_type',
+                'field' => 'slug',
+                'terms' => $type->slug,
+            ]],
+        ]);
+
+        if ($recipes->have_posts()) :
+            while ($recipes->have_posts()) : $recipes->the_post();
+        ?>
+            <div class="food-card">
+                <a href="<?php the_permalink(); ?>">
+                    <?php
+                    if (has_post_thumbnail()) {
+                        the_post_thumbnail('medium');
+                    } else {
+                        echo '<img src="https://via.placeholder.com/250x150" alt="No image">';
+                    }
+                    ?>
+                </a>
+                <h4><?php the_title(); ?> - 20min</h4>
+                <p><?php echo get_the_excerpt(); ?></p>
+            </div>
+        <?php
+            endwhile;
+            wp_reset_postdata();
+        else :
+            echo '<p>No recipes found.</p>';
+        endif;
+        ?>
+    </div> <!-- end cards container -->
+</section>
+
+<?php endif; ?>
+
+
+
  
   <!-- CHEF SECTION -->
   <section class="chef-section">

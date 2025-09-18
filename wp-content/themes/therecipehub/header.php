@@ -16,7 +16,7 @@
         <li><a href="<?php echo site_url('/recipes'); ?>">Recipes</a></li>
         <li><a href="#">Tips & Advice</a></li>
         <li><a href="#">Products</a></li>
-        <li><a href="#">Masterchefs</a></li>
+        <li><a href="<?php echo site_url('/weekly-chef'); ?>">Masterchefs</a></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
