@@ -277,6 +277,7 @@ padding-block: var(--desktopMediumSpacer);
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  padding-top: var(--desktopSmallSpacer);
 }
 
 .heading-row a {
@@ -285,27 +286,41 @@ padding-block: var(--desktopMediumSpacer);
 }
 
 .recipeCategory {
+  display: grid;
+  grid-template-rows: auto auto 1fr; 
+  background-color: var(--sandFarve);
   margin-bottom: 3rem;
+  margin-inline: var(--dekstopLargeSpacer);
+  border-radius: 10px;
 }
 
 .recipeCategory h2 {
   font-size: 1.8rem;
   color: var(--mainTextColor);
   margin-bottom: 0.5rem;
+  justify-self: start; 
+  padding-left: var(--desktopSmallSpacer);
+
+
 }
+
 
 .recipeCategory .viewmore {
   font-size: 1rem;
   color: #7f8c8d;
   margin-bottom: 1.5rem;
   text-decoration: none;
+  justify-self: start;
 }
+
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: var(--desktopMediumSpacer);
+  justify-content: center;
 }
+
 
 .gallery img {
   width: 100%;
@@ -330,4 +345,98 @@ padding-block: var(--desktopMediumSpacer);
   font-weight: 600;
   font-size: 1rem;
   color: #333;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+ 
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+ 
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--mobileSmallSpacer);
+  color: #444;
+}
+ 
+.description {
+  font-size: var(--paragraphSize);
+  line-height: 1.6;
+}
+ 
+.ingredients {
+  background: #f2efe0;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+ 
+.ingredients h2 {
+  margin-top: 0;
+  font-size: var(--titleSizeH2);
+}
+ 
+.ingredients ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+.ingredients li {
+  margin-bottom: 0.5rem;
+}
+ 
+.right img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 100%;
+}
+ 
+ 
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 0 2rem 2rem;
+}
+ 
+.recipe-extra {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+ 
+.recipe-extra h2 {
+  margin-top: 0;
+}
+ 
+.recipe-extra ul {
+  padding-left: 1.2rem;
+}
+
+.meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 9rem;
+  padding: 0.25rem 0;
+}
+
+.meta-item img {
+  width: 1.25rem;
+  height: 1.25rem;
+  object-fit: contain;
+}
+
+.recipe-extra p {
+    line-height: 1.8;
 }
