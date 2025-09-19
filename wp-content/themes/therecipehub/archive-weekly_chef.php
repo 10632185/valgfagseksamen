@@ -1,7 +1,6 @@
 <?php
 /* Template Name: Chefs Page */
 get_header(); ?>
-
 <main>
   <section class="intro-weekly-chefs">
     <h1>Meet Our Passionate Head Chefs</h1>
@@ -12,7 +11,6 @@ get_header(); ?>
       their unique taste, flair, and technique.
     </p>
   </section>
-
   <section class="featured-chef">
     <h2>This Week's Chef</h2>
     <?php
@@ -21,7 +19,6 @@ get_header(); ?>
         'posts_per_page' => 1,
         'post_status' => 'publish',
     ]);
-
     if ($weekly_query->have_posts()) :
         while ($weekly_query->have_posts()) : $weekly_query->the_post(); ?>
           <div class="chef-card">
@@ -39,7 +36,6 @@ get_header(); ?>
         <p>No featured chef available at the moment.</p>
     <?php endif; ?>
   </section>
-
   <section class="other-chefs">
     <h2>Meet our culinary artists – OUR CHEFS</h2>
     <div class="chef-grid">

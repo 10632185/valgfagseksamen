@@ -11,17 +11,12 @@
 <?php
 get_header();
 ?>
-
-<!-- HERO VIDEO -->
 <section class="herovideo">
   <video autoplay muted loop playsinline class="hero-video">
     <source src="/wp-content/uploads/2025/09/CINEMATIC-COOKING-B-ROLL-1.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </section>
- 
- 
-  <!-- INTRO -->
   <section class="intro">   
     <h1>THE RECIPE HUB</h1>
     <p>
@@ -31,23 +26,17 @@ get_header();
       about creating experiences.
     </p>
   </section>
- 
-  <!-- FOOD CARDS -->
 <?php
-// Get the first recipe type
 $types = get_terms('recipe_type', ['hide_empty' => true, 'number' => 1]);
 if ($types) :
     $type = $types[0];
 ?>
-
 <section class="food-section-wrapper">
     <div class="food-section-h2-frontpage">
         <h2><?php echo $type->name; ?></h2>
     </div>
-
-    <div class="food-section"> <!-- container for the cards -->
+    <div class="food-section">
         <?php
-        // Get 3 recipes for this type
         $recipes = new WP_Query([
             'post_type' => 'recipe',
             'posts_per_page' => 3,
@@ -59,7 +48,6 @@ if ($types) :
                 'terms' => $type->slug,
             ]],
         ]);
-
         if ($recipes->have_posts()) :
             while ($recipes->have_posts()) : $recipes->the_post();
         ?>
@@ -83,15 +71,10 @@ if ($types) :
             echo '<p>No recipes found.</p>';
         endif;
         ?>
-    </div> <!-- end cards container -->
+    </div>
 </section>
-
 <?php endif; ?>
 
-
-
- 
-  <!-- CHEF SECTION -->
   <section class="chef-section">
     <div class="chef-card">
       <img src="/wp-content/uploads/2025/09/Marcus_wareing_chef.png" alt="Chef 2">
@@ -102,7 +85,6 @@ if ($types) :
         of experience, creativity, and personality.
       </p>
     </div>
- 
         <div class="chef-card">
       <p>
         Our head chef is a true storyteller, not just through her words, but through
