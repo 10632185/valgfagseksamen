@@ -1,4 +1,3 @@
-
   <footer class="footer">
     <div class="footer-column">
       <h4>PARTNERS</h4>
@@ -26,5 +25,6 @@
     </div>
   </footer>
 
+  <?php wp_footer(); ?>
 </body>
 </html>

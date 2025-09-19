@@ -94,18 +94,23 @@ function register_tips_advice_cpt() {
 }
 add_action('init', 'register_tips_advice_cpt');
 
-function therecipehub_files() {
+// ------------- SCRIPTS ------------
+function therecipehub_enqueue_assets() {
+    wp_enqueue_style(
+        'therecipehub-style',
+        get_stylesheet_uri(),
+        array(),
+        wp_get_theme()->get('Version')
+    );
+
+    // Load your app.js
     wp_enqueue_script(
-  'theme-js',
-  get_template_directory_uri() . '/assets/js/app.js',
-  [],
-  '1.0',
-  true
-);
-
+        'therecipehub-app',
+        get_template_directory_uri() . '/assets/js/app.js',
+        array(), 
+        null,
+        true 
+    );
 }
-add_action('wp_enqueue_scripts', 'therecipehub_files');
 
-add_action('wp_footer', function() {
-  echo '<script>console.log("Footer is working");</script>';
-});
+add_action('wp_enqueue_scripts', 'therecipehub_enqueue_assets');
