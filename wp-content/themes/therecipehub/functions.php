@@ -32,8 +32,7 @@ function register_recipe_taxonomy() {
 }
 add_action('init', 'register_recipe_taxonomy');
 
-// ----------------------------------------------
-// TEST FOR WEEKLY CHEFS
+// ------------ WEEKLY CHEFS ----------------
 
 function register_custom_chef_post_types() {
   // Weekly Chef
@@ -53,7 +52,7 @@ function register_custom_chef_post_types() {
     'menu_icon' => 'dashicons-star-filled',
   ]);
 
-  // Chef Profile
+  // Chef Profiles
   register_post_type('chef_profile', [
     'labels' => [
       'name' => 'Chef Profiles',
@@ -72,3 +71,23 @@ function register_custom_chef_post_types() {
 }
 add_action('init', 'register_custom_chef_post_types');
 
+// ------------- TIPS & ADVICE ------------
+function create_tips_advice_cpt() {
+    $labels = array(
+    'name' => 'Tips & Advice',
+    'singular_name' => 'Tip',
+    );
+
+    $args = array(
+    'label'=> 'Tips & Advice',
+    'public' => true,
+    'show_in_rest' => true, 
+    'has_archive' => true,
+    'supports' => array(
+    'title', 'editor', 'thumbnail', 'author', 'excerpt', 'comments'),
+    'menu_icon' => 'dashicons-lightbulb',
+    );
+
+    register_post_type('tips_advice', $args);
+}
+add_action('init', 'create_tips_advice_cpt');

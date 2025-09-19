@@ -14,11 +14,18 @@
             <?php echo get_field('total_time'); ?>
         </span>
         <br>
-        <span class="meta-item stars">
+        <span class="meta-item chart">
             <img src="/wp-content/uploads/2025/09/chart-simple-solid-full.svg" alt="">
             <?php echo get_field('difficulty'); ?>
         </span>
-
+        <span class="meta-item stars">
+            <img src="/wp-content/uploads/2025/09/star-solid-full.svg" alt="">
+            <img src="/wp-content/uploads/2025/09/star-solid-full.svg" alt="">
+            <img src="/wp-content/uploads/2025/09/star-solid-full.svg" alt="">
+            <img src="/wp-content/uploads/2025/09/star-solid-full.svg" alt="">
+            <img src="/wp-content/uploads/2025/09/star-regular-full.svg" alt="">
+            <?php echo get_field('rating'); ?>
+        </span>
       </div>
 
       <p class="description"><?php echo get_field('intro'); ?></p>

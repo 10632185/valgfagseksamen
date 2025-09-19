@@ -14,7 +14,7 @@
       <ul class="nav-links">
         <li><a href="<?php echo site_url('/'); ?>">Front Page</a></li>
         <li><a href="<?php echo site_url('/recipes'); ?>">Recipes</a></li>
-        <li><a href="#">Tips & Advice</a></li>
+        <li><a href="<?php echo site_url('/tips_advice')?>">Tips & Advice</a></li>
         <li><a href="#">Products</a></li>
         <li><a href="<?php echo site_url('/weekly-chef'); ?>">Masterchefs</a></li>
         <li><a href="#">About us</a></li>

@@ -400,6 +400,10 @@ padding-block: var(--desktopMediumSpacer);
   padding: 1.5rem;
   border-radius: 12px;
 }
+
+.ingredients p{
+    line-height: var(--desktopSMSpacer);
+}
  
 .ingredients h2 {
   margin-top: 0;
@@ -460,7 +464,7 @@ padding-block: var(--desktopMediumSpacer);
 }
 
 .recipe-extra p {
-    line-height: 1.8;
+    line-height: var(--desktopSMSpacer);
 }
 
 
@@ -534,6 +538,86 @@ padding-block: var(--desktopMediumSpacer);
   margin-bottom: 15px;
 }
  
+/* -------------- TIPS & ADVICE --------------- */
+ 
+ .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  gap: var(--desktopSMSpacer);                
+  padding: var(--desktopSMSpacer) var(--desktopMediumSpacer);       
+}
+ 
+.card {
+  background: #fffbea;
+  width: 42rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
  
  
+    .card-header {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+    }
+ 
+    .profile-pic {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      margin-right: 0.625rem;
+      object-fit: cover;
+      border: 2px solid var(--greenButtonColor);
+    }
+ 
+    .user-info {
+      display: flex;
+      flex-direction: column;
+    }
+ 
+    .user-info strong {
+      font-size: var(--paragraphSize);
+    }
+ 
+    .user-info span {
+      font-size: var(--paragraphSize);
+    }
+ 
+    .post-img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+ 
+  .post-actions {
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 15px;
+}
+
+.post-actions svg {
+  width: 24px;
+  height: 24px;
+  fill: black;
+}
+
+ 
+    .post-actions span {
+      cursor: pointer;
+    }
+ 
+    .post-text {
+      padding: 0 15px 15px 15px;
+      font-size: var(--paragraphSize);
+      line-height: 1.5;
+    }
+ 
+    .comments {
+      padding: 1rem;
+      padding-top: 0rem;
+      font-size: var(--paragraphSize);
+      cursor: pointer;
+    }
  
