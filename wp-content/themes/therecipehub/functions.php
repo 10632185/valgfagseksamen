@@ -72,7 +72,7 @@ function register_custom_chef_post_types() {
 add_action('init', 'register_custom_chef_post_types');
 
 // ------------- TIPS & ADVICE ------------
-function create_tips_advice_cpt() {
+function register_tips_advice_cpt() {
     $labels = array(
     'name' => 'Tips & Advice',
     'singular_name' => 'Tip',
@@ -83,6 +83,8 @@ function create_tips_advice_cpt() {
     'public' => true,
     'show_in_rest' => true, 
     'has_archive' => true,
+    'capability_type' => 'tips_advice',
+    'map_meta_cap' => true,
     'supports' => array(
     'title', 'editor', 'thumbnail', 'author', 'excerpt', 'comments'),
     'menu_icon' => 'dashicons-lightbulb',
@@ -90,4 +92,4 @@ function create_tips_advice_cpt() {
 
     register_post_type('tips_advice', $args);
 }
-add_action('init', 'create_tips_advice_cpt');
+add_action('init', 'register_tips_advice_cpt');

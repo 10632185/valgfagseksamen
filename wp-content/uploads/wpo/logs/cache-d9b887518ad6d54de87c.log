@@ -255,3 +255,47 @@
 [2025-09-19 09:41:38 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/crisp-broccoli-and-al-dente-pasta/ has been purged, triggered by action: save_post 
 [2025-09-19 09:41:38 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Crisp broccoli and al dente pasta" has been purged, triggered by action: save_post 
 [2025-09-19 09:41:38 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/sommer2025/ associated with post_type: tips_advice and Title: "Crisp broccoli and al dente pasta" has been purged, triggered by action: save_post 
+[2025-09-19 11:33:10 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/juicy-chicken-cooked-to-perfection/ has been purged, triggered by action: save_post 
+[2025-09-19 11:33:10 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Juicy chicken cooked to perfection" has been purged, triggered by action: save_post 
+[2025-09-19 11:33:10 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/sommer2025/ associated with post_type: tips_advice and Title: "Juicy chicken cooked to perfection" has been purged, triggered by action: save_post 
+[2025-09-19 11:33:10 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/juicy-chicken-cooked-to-perfection/ has been purged, triggered by action: save_post 
+[2025-09-19 11:33:10 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Juicy chicken cooked to perfection" has been purged, triggered by action: save_post 
+[2025-09-19 11:33:10 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/sommer2025/ associated with post_type: tips_advice and Title: "Juicy chicken cooked to perfection" has been purged, triggered by action: save_post 
+[2025-09-19 11:36:29 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-09-19 11:47:37 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/french-croissant/ has been purged, triggered by action: save_post 
+[2025-09-19 11:47:37 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "French croissant" has been purged, triggered by action: save_post 
+[2025-09-19 11:47:37 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/masterchef/ associated with post_type: tips_advice and Title: "French croissant" has been purged, triggered by action: save_post 
+[2025-09-19 11:47:37 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/french-croissant/ has been purged, triggered by action: save_post 
+[2025-09-19 11:47:37 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "French croissant" has been purged, triggered by action: save_post 
+[2025-09-19 11:47:37 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/masterchef/ associated with post_type: tips_advice and Title: "French croissant" has been purged, triggered by action: save_post 
+[2025-09-19 12:06:43 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/french-croissant/ has been purged, triggered by action: wp_trash_post 
+[2025-09-19 12:08:10 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/homemade-buttery-croissants/ has been purged, triggered by action: save_post 
+[2025-09-19 12:08:10 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:10 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/amateur-chef/ associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:10 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/homemade-buttery-croissants/ has been purged, triggered by action: save_post 
+[2025-09-19 12:08:10 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:10 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/amateur-chef/ associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:25 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/homemade-buttery-croissants/ has been purged, triggered by action: save_post 
+[2025-09-19 12:08:25 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:25 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/amateur-chef/ associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:26 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/homemade-buttery-croissants/ has been purged, triggered by action: save_post 
+[2025-09-19 12:08:26 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:08:26 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/amateur-chef/ associated with post_type: tips_advice and Title: "Homemade buttery croissants" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:24 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/crossaint-tips/ has been purged, triggered by action: save_post 
+[2025-09-19 12:10:24 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:24 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/professional-chef/ associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:24 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/crossaint-tips/ has been purged, triggered by action: save_post 
+[2025-09-19 12:10:24 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:24 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/professional-chef/ associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:32 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/crossaint-tips/ has been purged, triggered by action: save_post 
+[2025-09-19 12:10:32 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:32 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/professional-chef/ associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:32 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/crossaint-tips/ has been purged, triggered by action: save_post 
+[2025-09-19 12:10:32 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:10:32 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/professional-chef/ associated with post_type: tips_advice and Title: "Crossaint Tips" has been purged, triggered by action: save_post 
+[2025-09-19 12:15:21 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/masterchefs-crossaint/ has been purged, triggered by action: save_post 
+[2025-09-19 12:15:21 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Masterchef&#8217;s Crossaint" has been purged, triggered by action: save_post 
+[2025-09-19 12:15:21 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/masterchef/ associated with post_type: tips_advice and Title: "Masterchef&#8217;s Crossaint" has been purged, triggered by action: save_post 
+[2025-09-19 12:15:21 : INFO] - Cache for URL: http://valgfags-eksamen.local/tips_advice/masterchefs-crossaint/ has been purged, triggered by action: save_post 
+[2025-09-19 12:15:21 : INFO] - Cache for archive page associated with post_type: tips_advice and Title: "Masterchef&#8217;s Crossaint" has been purged, triggered by action: save_post 
+[2025-09-19 12:15:21 : INFO] - Cache for author page URL: http://valgfags-eksamen.local/author/masterchef/ associated with post_type: tips_advice and Title: "Masterchef&#8217;s Crossaint" has been purged, triggered by action: save_post 

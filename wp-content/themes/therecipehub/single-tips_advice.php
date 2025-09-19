@@ -25,7 +25,7 @@
         </span>
       </div>
       <div class="post-text">
-        <?php the_content(); ?>
+        <?php echo get_field('advicedescription'); ?>
       </div>
       <div class="comments">
         <?php comments_template(); ?>
