@@ -93,3 +93,19 @@ function register_tips_advice_cpt() {
     register_post_type('tips_advice', $args);
 }
 add_action('init', 'register_tips_advice_cpt');
+
+function therecipehub_files() {
+    wp_enqueue_script(
+  'theme-js',
+  get_template_directory_uri() . '/assets/js/app.js',
+  [],
+  '1.0',
+  true
+);
+
+}
+add_action('wp_enqueue_scripts', 'therecipehub_files');
+
+add_action('wp_footer', function() {
+  echo '<script>console.log("Footer is working");</script>';
+});
